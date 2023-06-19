@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BulkyBook.Utility
 {
-    public static class SD
+    public static class SD //Static Details
     {
         public const string Role_User_Indi = "Individual";
         public const string Role_User_Comp = "Company";
@@ -24,5 +24,7 @@ namespace BulkyBook.Utility
         public const string PaymentStatusApproved = "Approved";
         public const string PaymentStatusDelayedPayment = "ApprovedForDelayedPayment";
         public const string PaymentStatusRejected = "Rejected";
+
+        public const string SessionCart = "SessionShoppingCart";
     }
 }
